@@ -1,21 +1,26 @@
-baseURL: https://jasonhk.blog/
+enableGitInfo: true
 theme: hugo-theme-stack
 hasCJKLanguage: true
 
 params:
   mainSections:
     - posts
+  dateFormat:
+    published: :date_full
+    lastUpdated: :date_long :time_medium
+  sidebar:
+    avatar:
+      enabled: true
+      src: logo.png
 
 permalinks:
   page:
-    posts: /posts/:slug
-  section: {}
+    posts: /:year/:month/:slug
 
-defaultContentLanguage: zh-HK
-defaultContentLanguageInSubdir: false
+defaultContentLanguage: zh-Hant-HK
 languages:
-  zh-HK:
-    languageCode: zh-HK
+  zh-Hant-HK:
+    languageCode: zh-Hant-HK
     languageName: 中文
     weight: 1
     title: 隨想‧隨寫
