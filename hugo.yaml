@@ -10,8 +10,14 @@ params:
     lastUpdated: :date_long :time_medium
   sidebar:
     avatar:
-      enabled: true
       src: logo.png
+  footer:
+    since: 2020
+  article:
+    toc: true
+  widgets:
+    page:
+      - type: toc
 
 permalinks:
   page:
@@ -24,6 +30,26 @@ languages:
     languageName: 中文
     weight: 1
     title: 隨想‧隨寫
+    menus:
+      main:
+        - name: 個人主頁
+          weight: 100
+          url: https://imjason.hk/
+          params:
+            icon: external-link
+            newTab: true
+        - name: 社交連結
+          weight: 101
+          url: https://jasonhk.link/
+          params:
+            icon: external-link
+            newTab: true
+      social:
+        - name: GitHub
+          url: https://github.com/JasonHK
+          params:
+            icon: brand-github
+            newTab: true
     params:
       sidebar:
         subtitle: 想到什麼就寫什麼
@@ -32,6 +58,44 @@ languages:
     languageName: English
     weight: 2
     title: Think & Write
+    menus:
+      main:
+        - name: Personal Homepage
+          weight: 100
+          url: https://imjason.hk/
+          params:
+            icon: external-link
+            newTab: true
+        - name: Social Links
+          weight: 101
+          url: https://jasonhk.link/
+          params:
+            icon: external-link
+            newTab: true
+      social:
+        - name: GitHub
+          url: https://github.com/JasonHK
+          params:
+            icon: brand-github
+            newTab: true
     params:
       sidebar:
         subtitle: Write whatever comes to mind
+
+markup:
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+    ordered: true
+  goldmark:
+    renderer:
+      unsafe: true
+
+minify:
+  disableCSS: false
+  disableHTML: false
+  disableJS: false
+  disableJSON: false
+  disableSVG: false
+  disableXML: false
+  minifyOutput: true
