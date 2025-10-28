@@ -1,0 +1,32 @@
+baseURL: https://jasonhk.blog/
+theme: hugo-theme-stack
+hasCJKLanguage: true
+
+params:
+  mainSections:
+    - posts
+
+permalinks:
+  page:
+    posts: /posts/:slug
+  section: {}
+
+defaultContentLanguage: zh-HK
+defaultContentLanguageInSubdir: false
+languages:
+  zh-HK:
+    languageCode: zh-HK
+    languageName: 中文
+    weight: 1
+    title: 隨想‧隨寫
+    params:
+      sidebar:
+        subtitle: 想到什麼就寫什麼
+  en:
+    languageCode: en
+    languageName: English
+    weight: 2
+    title: Think & Write
+    params:
+      sidebar:
+        subtitle: Write whatever comes to mind
