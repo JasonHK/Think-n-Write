@@ -18,6 +18,7 @@ params:
     toc: true
   widgets:
     page:
+      - type: search
       - type: toc
 
 permalinks:
@@ -54,6 +55,10 @@ languages:
     params:
       sidebar:
         subtitle: 想到什麼就寫什麼
+      article:
+        license:
+          enabled: true
+          default: 文章以<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hant" target="_blank">共享創意 姓名標示─非商業性─相同方式共享 4.0</a> 授權
   en:
     languageCode: en
     languageName: English
@@ -82,6 +87,10 @@ languages:
     params:
       sidebar:
         subtitle: Write whatever comes to mind
+      article:
+        license:
+          enabled: true
+          default: Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>
 
 markup:
   tableOfContents:
@@ -91,6 +100,11 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    extensions:
+      strikethrough: false
+      extras:
+        delete:
+          enable: true
 
 minify:
   disableCSS: false
