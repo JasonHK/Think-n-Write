@@ -1,6 +1,7 @@
-enableGitInfo: true
+baseURL: https://jasonhk.blog/
 theme: hugo-theme-stack
 hasCJKLanguage: true
+enableGitInfo: true
 
 params:
   mainSections:
