@@ -11,6 +11,7 @@ params:
     lastUpdated: :date_long :time_medium
   sidebar:
     avatar:
+      enabled: false
       src: logo.png
   footer:
     since: 2020
@@ -39,19 +40,21 @@ languages:
           url: https://imjason.hk/
           params:
             icon: external-link
-            newTab: true
         - name: 社交連結
           weight: 101
           url: https://jasonhk.link/
           params:
             icon: external-link
-            newTab: true
       social:
         - name: GitHub
           url: https://github.com/JasonHK
           params:
             icon: brand-github
-            newTab: true
+        - name: RSS
+          url: /index.xml
+          params:
+            icon: rss
+
     params:
       dateFormat:
         published: 2006 年 1 月 2 日（Monday）
@@ -74,19 +77,20 @@ languages:
           url: https://imjason.hk/
           params:
             icon: external-link
-            newTab: true
         - name: Social Links
           weight: 101
           url: https://jasonhk.link/
           params:
             icon: external-link
-            newTab: true
       social:
         - name: GitHub
           url: https://github.com/JasonHK
           params:
             icon: brand-github
-            newTab: true
+        - name: RSS
+          url: /en/index.xml
+          params:
+            icon: rss
     params:
       dateFormat:
         published: Monday, January 2, 2006
