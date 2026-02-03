@@ -24,11 +24,11 @@ params:
 
 permalinks:
   page:
-    posts: /:year/:month/:slug
+    posts: /:year/:month/:slug/
 
-defaultContentLanguage: zh-Hant-HK
+defaultContentLanguage: zh
 languages:
-  zh-Hant-HK:
+  zh:
     languageCode: zh-Hant-HK
     languageName: 中文
     weight: 1
