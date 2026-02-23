@@ -64,7 +64,7 @@ languages:
       article:
         license:
           enabled: true
-          default: 文章以<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hant" target="_blank">共享創意 姓名標示─非商業性─相同方式共享 4.0</a> 授權
+          default: 文章以<a href="https://creativecommons.org/licenses/by-nd/4.0/deed.zh-hant" target="_blank" rel="noopener nofollow">共享創意 姓名標示─禁止改作 4.0</a> 授權
   en:
     languageCode: en
     languageName: English
@@ -100,7 +100,7 @@ languages:
       article:
         license:
           enabled: true
-          default: Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>
+          default: Licensed under <a href="https://creativecommons.org/licenses/by-nd/4.0/" target="_blank" rel="noopener nofollow">CC BY-ND 4.0</a>
 
 markup:
   tableOfContents:
