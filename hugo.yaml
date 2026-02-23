@@ -1,5 +1,5 @@
 baseURL: https://jasonhk.blog/
-theme: hugo-theme-stack
+theme: stack
 hasCJKLanguage: true
 enableGitInfo: true
 
