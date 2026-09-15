@@ -10,9 +10,7 @@ params:
     published: :date_full
     lastUpdated: :date_long :time_medium
   sidebar:
-    avatar:
-      enabled: false
-      src: logo.png
+    avatar: logo.png
   footer:
     since: 2020
   article:
