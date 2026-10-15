@@ -27,8 +27,8 @@ permalinks:
 defaultContentLanguage: zh
 languages:
   zh:
-    languageCode: zh-Hant-HK
-    languageName: 中文
+    locale: zh-Hant-HK
+    label: 中文
     weight: 1
     title: 隨想‧隨寫
     menus:
@@ -64,8 +64,8 @@ languages:
           enabled: true
           default: 文章以<a href="https://creativecommons.org/licenses/by-nd/4.0/deed.zh-hant" target="_blank" rel="noopener nofollow">共享創意 姓名標示─禁止改作 4.0</a> 授權
   en:
-    languageCode: en
-    languageName: English
+    locale: en
+    label: English
     weight: 2
     title: Think & Write
     menus:
